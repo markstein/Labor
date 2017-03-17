@@ -16,7 +16,7 @@ apply plugin: 'org.springframework.boot'
 
 jar {
 	baseName = 'labor-spring-boot'
-	version = '1'
+	version = ''
 }
 
 sourceCompatibility = 1.8
