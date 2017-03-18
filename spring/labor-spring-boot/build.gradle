@@ -30,6 +30,11 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-cache')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('org.springframework.boot:spring-boot-devtools')
+	
+	//for executable jar with jsp
+	compile("javax.servlet:jstl")	
+	compile("org.apache.tomcat.embed:tomcat-embed-jasper")
+	
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
