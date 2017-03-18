@@ -6,4 +6,5 @@
 
 ## browse
 http://localhost:8080 > just response body
+
 http://localhost:8080/hello > embeded JSP
